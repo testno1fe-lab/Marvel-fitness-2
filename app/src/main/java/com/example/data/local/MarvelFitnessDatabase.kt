@@ -50,7 +50,7 @@ abstract class MarvelFitnessDatabase : RoomDatabase() {
                     "marvel_fitness.db"
                 )
                 .addCallback(MarvelDatabaseCallback(scope))
-                .fallbackToDestructiveMigration()
+                .fallbackToDestructiveMigration(true)
                 .build()
                 INSTANCE = instance
                 instance

@@ -3,6 +3,8 @@ package com.example.ui.navigation
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ReceiptLong
+import androidx.compose.material.icons.automirrored.outlined.ReceiptLong
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.*
 import androidx.compose.material3.*
@@ -28,7 +30,7 @@ sealed class Screen(
     object Dashboard : Screen("dashboard", "Dashboard", Icons.Filled.Home, Icons.Outlined.Home)
     object Members : Screen("members", "Members", Icons.Filled.People, Icons.Outlined.People)
     object Expiry : Screen("expiry", "Expiry", Icons.Filled.AccessTime, Icons.Outlined.AccessTime)
-    object Payments : Screen("payments", "Payments", Icons.Filled.ReceiptLong, Icons.Outlined.ReceiptLong)
+    object Payments : Screen("payments", "Payments", Icons.AutoMirrored.Filled.ReceiptLong, Icons.AutoMirrored.Outlined.ReceiptLong)
     object Plans : Screen("plans", "Plans", Icons.Filled.FitnessCenter, Icons.Outlined.FitnessCenter)
 }
 

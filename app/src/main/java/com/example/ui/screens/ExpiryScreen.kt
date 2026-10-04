@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.Message
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.material3.TabRowDefaults.tabIndicatorOffset
@@ -352,7 +353,7 @@ fun ExpiryMemberCard(
                     colors = ButtonDefaults.outlinedButtonColors(contentColor = TextWhite),
                     modifier = Modifier.weight(1.3f).height(38.dp)
                 ) {
-                    Icon(Icons.Default.Message, contentDescription = null, modifier = Modifier.size(15.dp), tint = MarvelGold)
+                    Icon(Icons.AutoMirrored.Filled.Message, contentDescription = null, modifier = Modifier.size(15.dp), tint = MarvelGold)
                     Spacer(modifier = Modifier.width(4.dp))
                     Text("Reminder", fontSize = 12.sp)
                 }

@@ -9,6 +9,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.DirectionsRun
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -223,7 +224,7 @@ fun DashboardScreen(
                 StatCard(
                     title = "Today's Attendance",
                     value = todayCheckInCount.toString(),
-                    icon = Icons.Default.DirectionsRun,
+                    icon = Icons.AutoMirrored.Filled.DirectionsRun,
                     accentColor = MarvelSuccess,
                     subtext = "Active on gym floor",
                     modifier = Modifier.weight(1f),
