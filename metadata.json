@@ -1,0 +1,6 @@
+{
+  "name": "Marvel Fitness",
+  "description": "Production-ready gym and membership management app for Marvel Fitness with member tracking, expiry alerts, renewals, and customizable plans.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
